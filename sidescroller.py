@@ -21,7 +21,6 @@ bw,bh=bg.get_rect().size
 sw=bw
 vec=pygame.math.Vector2
 rpimg=[pygame.image.load(str(i)+'.png').convert_alpha() for i in range(8,16)]
-spimg=[pygame.image.load("s"+str(i)+'.png').convert_alpha() for i in range(1,6)]
 jpimg=[pygame.image.load(str(i)+'.png').convert_alpha() for i in range(1,8)]
 sawimg=[pygame.image.load("saw"+str(i)+'.png').convert_alpha() for i in range(4)]
 class Player(pygame.sprite.Sprite):
