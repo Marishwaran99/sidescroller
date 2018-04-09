@@ -22,7 +22,7 @@ sw=bw
 vec=pygame.math.Vector2
 rpimg=[pygame.image.load(str(i)+'.png').convert_alpha() for i in range(8,16)]
 jpimg=[pygame.image.load(str(i)+'.png').convert_alpha() for i in range(1,8)]
-sawimg=[pygame.image.load("saw"+str(i)+'.png').convert_alpha() for i in range(4)]
+sawimg=[pygame.image.load("SAW"+str(i)+'.png').convert_alpha() for i in range(4)]
 class Player(pygame.sprite.Sprite):
     def __init__(self,game):
         super().__init__()
